@@ -14,9 +14,7 @@ void	check_qlines(t_all *data)
 		if (i == data->lines - 1)
 			len--;
 		if (ft_strlen(data->map[i]) != len)
-		{
 			ft_error_qlines();
-		}
 		i++;
 	}
 }
